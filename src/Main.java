@@ -1,6 +1,14 @@
+import jdk.swing.interop.SwingInterOpUtils;
+
+import java.util.Scanner;
+
 public class Main {
 
+
     public static void main(String[] args) {
-        System.out.println("hello gigi");;
+
+        LogicalOperations lo = new LogicalOperations();
+        lo.switchCaseMethod();
+
     }
 }
