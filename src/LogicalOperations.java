@@ -91,4 +91,60 @@ public class LogicalOperations {
             System.out.println("The number lower than 3");
         }
     }
+
+    //If the user pressed number keys( from 0 to 9), the program will tell the number that is
+    //pressed, otherwise, program will show "Not allowed”. (use a switch case for this)
+    public void ex7() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Type a number");
+        int number = scan.nextInt();
+        switch (number) {
+            case 1:
+                System.out.println("1");
+                break;
+            case 2:
+                System.out.println("2");
+                break;
+            case 3:
+                System.out.println("3");
+                break;
+            case 4:
+                System.out.println("4");
+                break;
+            case 5:
+                System.out.println("5");
+            case 6:
+                System.out.println("6");
+                break;
+            case 7:
+                System.out.println("7");
+                break;
+            case 8:
+                System.out.println("8");
+                break;
+            case 9:
+                System.out.println("9");
+                break;
+            case 0:
+                System.out.println("0");
+                break;
+            default:
+                System.out.println("Not allowed");
+                break;
+        }
+    }
+    //Write a Java program to determine whether an input number is an even number
+
+    public void ex8(){
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Type a number");
+        int x = scan.nextInt();
+        if (x % 2 == 0 ) {
+            System.out.println("nr par");
+        }else {
+            System.out.println("nr impar");
+        }
+    }
 }
+
+
