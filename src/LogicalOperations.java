@@ -145,6 +145,39 @@ public class LogicalOperations {
             System.out.println("nr impar");
         }
     }
+    //Write Java program to allow the user to input his/her age. Then the program will show
+    //if the person is eligible to vote. A person who is eligible to vote must be older than or
+    //equal to 18 years old
+
+    public void ex9 (){
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Type your age");
+        int x = scan.nextInt();
+        if ( x >= 18) {
+            System.out.println("The person is eligible to vote");
+        }else{
+            System.out.println("The person is not eligible to vote");
+        }
+    }
+
+    //Find the greatest number from 3 given numbers
+
+    public void ex10(){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Type the first number");
+        int x = scan.nextInt();
+        System.out.println("Type the second number");
+        int y = scan.nextInt();
+        System.out.println("Type the third number");
+        int z = scan.nextInt();
+        if (x > y && x > z){
+            System.out.println("The first is the greatest number");
+        }else if ( y> x && y > z ) {
+            System.out.println("The second is the greatest number");
+        }else if ( z > x && z >y){
+            System.out.println("The third is the greatest number");
+        }
+    }
 }
 
 
