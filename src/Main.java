@@ -7,8 +7,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        LogicalOperations lo = new LogicalOperations();
-        lo.ex10();
+        //LogicalOperations lo = new LogicalOperations();
+        //Dogs rex = new Dogs();
+        Dogs dingo= new Dogs();
+        dingo.setName("mihai");
+        System.out.println(dingo.getName());
 
     }
 }
